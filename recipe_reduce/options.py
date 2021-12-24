@@ -1,6 +1,6 @@
 from argparse import ArgumentParser
 
-from recipe_reduce.constants import Lang
+from recipe_reduce.lang import Lang
 
 
 def add_options(parser: ArgumentParser):

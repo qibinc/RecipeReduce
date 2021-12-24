@@ -13,5 +13,6 @@ setup(
         "isort>=5.8.0",
         "pre-commit>=2.15.0",
         "pytest>=6.2.4",
+        "tabulate>=0.8.9",
     ],
 )

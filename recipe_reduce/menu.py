@@ -1,9 +1,9 @@
 import json
 from argparse import ArgumentParser
 
-from recipe_reduce.constants import Lang
+from recipe_reduce.lang import Lang
 from recipe_reduce.options import add_options
-from recipe_reduce.recipe import ALL_RECIPES
+from recipe_reduce.recipe_list import ALL_RECIPES
 
 if __name__ == "__main__":
     parser = ArgumentParser()
@@ -15,6 +15,15 @@ if __name__ == "__main__":
     with open(args.fname, "w") as f:
         f.write(
             json.dumps(
-                {recipe.name: 0 for recipe in ALL_RECIPES}, indent=2, ensure_ascii=False
+                {
+                    "count": {recipe.name: 0 for recipe in ALL_RECIPES},
+                    "info": {
+                        recipe.name: recipe.info
+                        for recipe in ALL_RECIPES
+                        if recipe.info
+                    },
+                },
+                indent=2,
+                ensure_ascii=False,
             )
         )
