@@ -14,10 +14,7 @@ python -m recipe_reduce.menu --lang zh
     "甜粘三文鱼 配 烤蔬菜和米饭": 2,
     "柠檬刺山柑猪排和帕尔马玉米粥 配 迷迭香和大蒜烤青豆": 2
   },
-  "info": {
-    "甜粘三文鱼 配 烤蔬菜和米饭": "https://marleyspoon.com/media/pdf/recipe_cards/104233/R-104233_-_Sweet___Sticky_Salmon-CV.pdf",
-    "柠檬刺山柑猪排和帕尔马玉米粥 配 迷迭香和大蒜烤青豆": "https://marleyspoon.com/media/pdf/recipe_cards/100026/R-100026_-_Lemon-Caper_Pork_Cutlets___Parmesan_Polenta-CV.pdf"
-  }
+  "info": {}
 }
 ```
 

@@ -14,10 +14,7 @@ python -m recipe_reduce.menu
     "Sweet & Sticky Salmon with Roasted Veggies & Rice": 2,
     "Lemon-Caper Pork Cutlets & Parmesan Polenta with Rosemary & Garlic Roasted Green Beans": 2
   },
-  "info": {
-    "Sweet & Sticky Salmon with Roasted Veggies & Rice": "https://marleyspoon.com/media/pdf/recipe_cards/104233/R-104233_-_Sweet___Sticky_Salmon-CV.pdf",
-    "Lemon-Caper Pork Cutlets & Parmesan Polenta with Rosemary & Garlic Roasted Green Beans": "https://marleyspoon.com/media/pdf/recipe_cards/100026/R-100026_-_Lemon-Caper_Pork_Cutlets___Parmesan_Polenta-CV.pdf"
-  }
+  "info": {}
 }
 ```
 

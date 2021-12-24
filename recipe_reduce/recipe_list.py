@@ -18,7 +18,6 @@ ALL_RECIPES = [
             item_list.SWEET_CHILI_SAUCE: 1.5,
             item_list.LIME: 0.5,
         },
-        info="https://marleyspoon.com/media/pdf/recipe_cards/104233/R-104233_-_Sweet___Sticky_Salmon-CV.pdf",
     ),
     Recipe(
         name_dict={
@@ -37,8 +36,25 @@ ALL_RECIPES = [
             item_list.GREEN_BEANS: 0.25,
             item_list.CAPER: 0.5,
         },
-        info="https://marleyspoon.com/media/pdf/recipe_cards/100026/R-100026_-_Lemon-Caper_Pork_Cutlets___Parmesan_Polenta-CV.pdf",
     ),
+    Recipe(
+        name_dict={
+            "en": "Shrimp in Purgatory with Orzo Pilaf & Charred Broccoli",
+            "zh": "炼狱虾 配 米粒面和烤西兰花",
+        },
+        items={
+            item_list.ORZO: 3,
+            item_list.BROCCOLI: 0.25,
+            item_list.GARLIC: 1,
+            item_list.PARMESAN: 0.375,
+            item_list.PANKO: 0.5,
+            item_list.SHRIMP: 5,
+            item_list.MARINARA: 4,
+            item_list.CAPER: 0.5,
+            item_list.CRUSHED_PEPPER: 1,
+        },
+        info="Parmesan is optional.",
+    )
     # Add new recipes here
 ]
 

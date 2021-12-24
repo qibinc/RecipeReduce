@@ -13,6 +13,9 @@ PORK = Item(
     unit="oz",
     url="https://amzn.to/3stpR8x",
 )
+SHRIMP = Item(
+    name_dict={"en": "shrimp", "zh": "虾"}, unit="oz", url="https://amzn.to/3H8I7YP"
+)
 
 # Veggies
 GREEN_BEANS = Item(
@@ -24,6 +27,9 @@ BELL_PEPPER = Item(
     name_dict={"en": "bell pepper", "zh": "甜椒"},
     unit="pc.",
     url="https://amzn.to/3mvDK20",
+)
+BROCCOLI = Item(
+    name_dict={"en": "broccoli", "zh": "西兰花"}, unit="lb", url="https://amzn.to/3ppHzYv"
 )
 
 # Staple food
@@ -40,6 +46,12 @@ PARMESAN = Item(
     unit="oz",
     url="https://amzn.to/3syP9C6",
 )
+ORZO = Item(
+    name_dict={"en": "orzo", "zh": "米拉面"}, unit="oz", url="https://amzn.to/3Fr1wUr"
+)
+PANKO = Item(
+    name_dict={"en": "panko", "zh": "日式面包屑"}, unit="oz", url="https://amzn.to/3H59AdK"
+)
 
 # Seasonings
 ## Sauces
@@ -54,6 +66,11 @@ SWEET_CHILI_SAUCE = Item(
 TURKEY_BROTH_CON = Item(
     name_dict={"en": "turkey broth concentrate", "zh": "火鸡汤浓缩液"}, unit="pkt"
 )
+MARINARA = Item(
+    name_dict={"en": "marinara sauce", "zh": "意式番茄酱"},
+    unit="oz",
+    url="https://amzn.to/3svoohM",
+)
 
 ## Plants
 CHIVES = Item(
@@ -67,7 +84,12 @@ ROSEMARY = Item(
     url="https://amzn.to/3quz6To",
 )
 GARLIC = Item(
-    name_dict={"en": "garlic", "zh": "大蒜"}, unit="pc.", url="https://amzn.to/3H8ENNb"
+    name_dict={"en": "garlic", "zh": "大蒜"}, unit="/", url="https://amzn.to/3H8ENNb"
+)
+CRUSHED_PEPPER = Item(
+    name_dict={"en": "crushed red pepper", "zh": "碎红辣椒"},
+    unit="/",
+    url="https://amzn.to/32xN5PM",
 )
 SESAME = Item(
     name_dict={"en": "sesame", "zh": "芝麻"}, unit="oz", url="https://amzn.to/3JiZbgL"

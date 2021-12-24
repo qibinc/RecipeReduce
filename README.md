@@ -7,6 +7,7 @@
 This repo will help you figure out the amount of ingredients to buy for a certain number of meals with selected recipes.
 
 - [RecipeReduce](#recipereduce)
+  - [Goal](#goal)
   - [Getting Started](#getting-started)
     - [Installation](#installation)
     - [Usage](#usage)
@@ -16,6 +17,16 @@ This repo will help you figure out the amount of ingredients to buy for a certai
   - [🍽 More Recipes!](#-more-recipes)
     - [Add a New Recipe](#add-a-new-recipe)
     - [Add New Ingredients](#add-new-ingredients)
+
+## Goal
+
+Cooking is hard. Buying cooking ingredients is even harder, especially for programmers who always want to avoid repetitive work. This repo aims to help you achieve the following goals:
+
+✔ **Balance:** Planning your meals with balanced meats and veggies, and buy the right amount. Never run out of veggies.
+
+✔ **Convenience:** Get a shopping list of ingredients with purchase links instead of searching on Amazon each time.
+
+✔ **Eco-friendly:** No more leftovers and rotten vegetables, and say goodbye to your guilt in discarding them.
 
 ## Getting Started
 
