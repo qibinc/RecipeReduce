@@ -10,8 +10,10 @@ This repo will help you figure out the amount of ingredients to buy for a certai
   - [Getting Started](#getting-started)
     - [Installation](#installation)
     - [Usage](#usage)
-  - [Examples](#examples)
-  - [More Recipes!](#more-recipes)
+  - [🌟 Examples](#-examples)
+    - [English](#english)
+    - [简体中文](#简体中文)
+  - [🍽 More Recipes!](#-more-recipes)
     - [Add a New Recipe](#add-a-new-recipe)
     - [Add New Ingredients](#add-new-ingredients)
 
@@ -37,11 +39,15 @@ Open `input.json`, fill in the number of meals you would like to have for each r
 python -m recipe_reduce.main --fname input.json --lang en
 ```
 
-## Examples
+## 🌟 Examples
 
-We provide examples in [English](/examples.md) and [中文](/examples_zh.md).
+We provide examples in English and 简体中文!
 
-## More Recipes!
+### [English](/examples.md)
+### [简体中文](/examples_zh.md)
+
+
+## 🍽 More Recipes!
 
 ### Add a New Recipe
 
@@ -50,5 +56,3 @@ To add a new recipe, take a look at  [recipe_reduce/recipe_list.py](recipe_reduc
 ### Add New Ingredients
 
 You might also want to add new ingredents, take a look at [recipe_reduce/item_list.py](recipe_reduce/item_list.py) and add your own ingredients. Use [bitly](https://bitly.com/) to shorten the purchase urls.
-
-PRs are welcome!
