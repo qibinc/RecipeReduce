@@ -45,10 +45,10 @@ We provide examples in [English](/examples.md) and [中文](/examples_zh.md).
 
 ### Add a New Recipe
 
-To add a new recipe, take a look at  `recipe_reduce/recipe_list.py`, create and add your own recipe to `ALL_RECIPES`.
+To add a new recipe, take a look at  [recipe_reduce/recipe_list.py](recipe_reduce/recipe_list.py), create and add your own recipe to `ALL_RECIPES`.
 
 ### Add New Ingredients
 
-You might also want to add new ingredents, take a look at `recipe_reduce/item_list.py` and add your own ingredients. Use [bitly](https://bitly.com/) to shorten the purchase urls.
+You might also want to add new ingredents, take a look at [recipe_reduce/item_list.py](recipe_reduce/item_list.py) and add your own ingredients. Use [bitly](https://bitly.com/) to shorten the purchase urls.
 
 PRs are welcome!
