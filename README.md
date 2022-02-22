@@ -26,7 +26,7 @@ Cooking is hard. Buying cooking ingredients is even harder, especially for progr
 
 ✔ **Convenience:** Get a shopping list of ingredients with purchase links instead of searching on Amazon each time.
 
-✔ **Eco-friendly:** No more leftovers and rotten vegetables, and say goodbye to your guilt in discarding them.
+✔ **Eco-friendly:** No more leftovers and rotten vegetables, and say goodbye to your guilt in discarding them. (Note: this is not true.)
 
 ## Getting Started
 
