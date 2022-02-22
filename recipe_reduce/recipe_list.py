@@ -54,6 +54,38 @@ ALL_RECIPES = [
             item_list.CRUSHED_PEPPER: 1,
         },
         info="Parmesan is optional.",
+    ),
+    Recipe(
+        name_dict={
+            "en": "Pan-Roasted Steak & Mustard Sauce with Sweet Potato Mash & Brussels Sprouts",
+            "zh": "烤牛排第戎芥末酱 配 甘薯土豆泥和球芽甘蓝",
+        },
+        items={
+            item_list.SWEET_POTATO: 0.5,
+            item_list.GARLIC: 1,
+            item_list.BRUSSELS_SPROUTS: 0.25,
+            item_list.STEAK: 5,
+            item_list.ROSEMARY: 0.125,
+            item_list.DIJON_MUSTARD: 1,
+            item_list.WORCESTERSHIRE_SAUCE: 0.75,
+        },
+    ),
+    Recipe(
+        name_dict={
+            "en": "Sheet Pan Chicken Fajitas with Mixed Peppers & Onions",
+            "zh": "烤鸡肉卷 配 混合红辣椒和洋葱",
+        },
+        items={
+            item_list.BELL_PEPPER: 0.5,
+            item_list.LIME: 0.5,
+            item_list.CHICKEN_BREAST: 4,
+            item_list.POBLANO_PEPPER: 0.5,
+            item_list.RED_ONION: 0.5,
+            item_list.TORTILLAS: 3,
+            item_list.CHILI_POWDER: 0.125,
+            item_list.SOUR_CREAM: 1,
+            item_list.SALSA: 0.5,
+        },
     )
     # Add new recipes here
 ]
